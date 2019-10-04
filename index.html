@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>insurance CF</title>
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.png" alt="Logo" id="logoImage" title="Logo">
+        <a href="https://www.codefactory.wien" target="_blank"><img src="./img/banner.png" alt="CodeFactory" id="banner" title="CodeFactory"></a>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="team.html">
+                <li>Team</li>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <div class="inhaltBIG">
+            <p>Car insurance</p>
+            <div id="calculator">
+                <h2>Great coverage begins <br> with a custom quote</h2>
+                <form>
+                    <div class="formFelder">
+                        <label for="name">Your name:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="formFelder">
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" id="age">
+                    </div>
+                    <div class="formFelder">
+                        <label for="country">Country:</label>
+                        <select name="country" id="country">
+                            <option value="austria">Austria</option>
+                            <option value="hungary">Hungary</option>
+                            <option value="greece">Greece</option>
+                        </select>
+                    </div>
+                    <div class="formFelder">
+                        <label for="hp">Horsepower of your car:</label>
+                        <input type="text" name="hp" id="hp">
+                    </div>
+                    <button id="calcBtn">Calculate</button>
+                    <p id="priceOutput">Printed calculation goes here</p>
+                </form>
+            </div>
+            <div class="message" style="text-align:center;background-color: lightgrey; height:200px">
+                <div>
+                    <h3>Un-complicating car coverage</h3>
+                    <br>
+                    <span>Understanding your coverage options shouldn't be so hard. We'll guide you through avaliable coverage types, starting with who and what is covered</span>
+                </div>
+            </div>
+        </div>
+        <section class="toChoose">
+            <div class="opp">
+                <h4>What comes standard</h4>
+                <p>The coverage you need</p>
+                <ul>
+                    <br>
+                    <li>Bodily Injury Liability</li>
+                    <li>Property Damage</li>
+                    <li>Medical Payments</li>
+                </ul><br>
+                <hr>
+                <br>
+                <h5>Benefits</h5>
+                <small>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</small>
+            </div>
+            <div class="opp">
+                <h4>Add-on protection & coverage</h4>
+                <p>For more peace of mind</p>
+                <br>
+                <ul>
+                    <li>Better Car Replacement</li>
+                    <li>Towing & Labor</li>
+                    <li>Rental Car Coverage</li>
+                </ul><br>
+                <hr>
+                <br>
+                <h5>Earned Benefits</h5>
+                <small>Accident Forgiveness&#185; | New Car Replacement&trade;</small>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="team.html">
+                    <li>Team</li>
+                </a>
+            </ul>
+        </nav>
+        <img src="./img/logo-inv.png" alt="Logo" title="Logo" id="logoFooter">
+    </footer>
+    <div id="copyright">
+        <p>Markus Gehmayer - CodeFactory 2019</p>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
